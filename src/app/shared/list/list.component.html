@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor='let element of list' [routerLink]='[statues]'>
+    <a >{{ element }}</a>
+  </li>
+</ul>
+
+<pre>{{ list | json }}</pre>
